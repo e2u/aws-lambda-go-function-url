@@ -1,0 +1,44 @@
+{
+  "body": "c=123&b=1111&d=111\n",
+  "headers": {
+    "accept": "application/json, */*;q=0.5",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "19",
+    "content-type": "application/json",
+    "host": "um5bjkwfnkfsuvv5fjmzzjr2x40aquoj.lambda-url.ap-southeast-1.on.aws",
+    "user-agent": "HTTPie/3.2.1",
+    "x-amzn-tls-cipher-suite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "x-amzn-tls-version": "TLSv1.2",
+    "x-amzn-trace-id": "Root=1-62fba1c7-546b14b566c344d31ec185dd",
+    "x-forwarded-for": "2406:da18:d39:7316:52e9:8694:f9ec:bb0",
+    "x-forwarded-port": "443",
+    "x-forwarded-proto": "https"
+  },
+  "isBase64Encoded": false,
+  "queryStringParameters": {
+    "a": "1,12,123",
+    "b": "1"
+  },
+  "rawPath": "/abcd/123/ddd",
+  "rawQueryString": "a=1&a=12&a=123&b=1",
+  "requestContext": {
+    "accountId": "anonymous",
+    "apiId": "um5bjkwfnkfsuvv5fjmzzjr2x40aquoj",
+    "domainName": "um5bjkwfnkfsuvv5fjmzzjr2x40aquoj.lambda-url.ap-southeast-1.on.aws",
+    "domainPrefix": "um5bjkwfnkfsuvv5fjmzzjr2x40aquoj",
+    "http": {
+      "method": "POST",
+      "path": "/abcd/123/ddd",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "2406:da18:d39:7316:52e9:8694:f9ec:bb0",
+      "userAgent": "HTTPie/3.2.1"
+    },
+    "requestId": "8dbb497d-402e-465b-a917-da63915df20c",
+    "routeKey": "$default",
+    "stage": "$default",
+    "time": "16/Aug/2022:13:55:19 +0000",
+    "timeEpoch": 1660658119685
+  },
+  "routeKey": "$default",
+  "version": "2.0"
+}
